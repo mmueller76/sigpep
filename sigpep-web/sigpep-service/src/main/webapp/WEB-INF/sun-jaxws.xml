@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<endpoints xmlns='http://java.sun.com/xml/ns/jax-ws/ri/runtime' version='2.0'>
+    <endpoint
+            name='SigPepService'
+            implementation='org.sigpep.web.service.SigPepQueryServiceImpl'
+            wsdl='/WEB-INF/wsdl/SigPepQueryImplService.wsdl'
+            service='{http://service.web.sigpep.org/}SigPepQueryImplService'
+            port='{http://service.web.sigpep.org/}SigPepQueryImplPort'
+            url-pattern='/queryService'/>
+</endpoints>
